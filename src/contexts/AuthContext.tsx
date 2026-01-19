@@ -14,9 +14,9 @@ interface AuthProviderProps {
     children: ReactNode
 }
 
-export const AuthContext = createContext({} as AuthContextProps);
+export const AuthContext = createContext({} as AuthContextProps)
 
-export function AuthProviderProps({ children }: AuthProviderProps) {
+export function AuthProvider({ children }: AuthProviderProps) {
 
     const [usuario, setUsuario] = useState<UsuarioLogin>({
         id: 0,
