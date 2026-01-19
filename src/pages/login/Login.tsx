@@ -31,7 +31,7 @@ function Login() {
                         className="rounded bg-indigo-400 flex justify-center
                                    hover:bg-indigo-900 text-white w-1/2 py-2"
                     >
-                        <span>Entar</span>
+                        <span>Entrar</span>
                     </button>
 
                     <hr className="border-slate-800 max-w-full" />
